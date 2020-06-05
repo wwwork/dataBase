@@ -2,6 +2,7 @@
 
 # 0. TASK: Store and separated data (NDA) and get it from remote database located on other Data Center in other country (DC).
 *(Because there some law regulation and restricts users data access in some customers countries).*
+
 The first implementation of the task, using Postgres_FDW module. 
 
 The main **disadvantage** that is when remote DC is unavailable, all tables that connected to remote DC are **unavailable**.
