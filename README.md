@@ -1,7 +1,10 @@
 # My Database interaction sсheme.
 
 # 0. TASK: Store and separated data (NDA) and get it from remote database located on other Data Center in other country (DC).
-*(Because there some law regulation and restricts users data access in some customers countries).*
+*Because there some law regulation and restricts users data access in some customers countries.*
+
+When the data of users  profiles cant store in customers DC, but might be the part of  single data.
+
 
 The first implementation of the task, using Postgres_FDW module. 
 
